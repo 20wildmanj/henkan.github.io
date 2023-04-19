@@ -1,9 +1,9 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Project Proposal"
+    url: /_pages/project-proposal
+  - title: "Milestone Report"
+    url:  /_pages/milestone-report
+  - title: "Final Report"
+    url:  /_pages/final-report
   - title: "About"
     url: /about/

@@ -1,7 +1,30 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+permalink: /
+hidden: true
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/mm-home-page-feature.jpg
+  actions:
+excerpt: >
+  Parallelizing Character Conversion from the English to Japanese Alphabet<br />
+  By Joey Wildman and Yuma Matsuoka
+feature_row:
+  - title: "Project Proposal"
+    excerpt: "Our initial project scope and outline"
+    url: "/_pages/project-proposal"
+    btn_class: "btn--primary"
+    btn_label: "View"
+  - title: "Milestone Report"
+    excerpt: "Our status report at the midway point of our project"
+    url: "/_pages/milestone-report"
+    btn_class: "btn--primary"
+    btn_label: "View"
+  - title: "Final Report"
+    excerpt: "Our final report for our 15418 final project"
+    url: "/_pages/final-report"
+    btn_class: "btn--primary"
+    btn_label: "View"      
 ---
+
+{% include feature_row %}
