@@ -23,7 +23,9 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
-baseurl: /15418-henkan-site
+baseurl: /henkan.github.io
+domain: henkan.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://henkan.github.io
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
